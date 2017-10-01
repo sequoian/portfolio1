@@ -31,7 +31,7 @@
 	left: 0;
 	z-index: 1;
 	content: ' ';
-	background-image: url('../assets/lake.jpg');
+	background-image: url('../assets/lake.JPG');
 	background-size: cover;
 	background-position: 50% 50%;
 	opacity: .9;
