@@ -41,7 +41,8 @@ body {
 }
 
 .intro {
-  z-index: 2;
+	z-index: 2;
+	font-weight: bold;
 }
 
 .intro h1 {
@@ -84,20 +85,10 @@ body {
 
 .main {
 	font-size: 20px;
-	font-family: 'Nunito';
+	font-family: 'Nunito', sans-serif;
 	line-height: 120%;
 	color: #444;
-}
-
-.container {
-	max-width: 960px;
-	margin: auto;
-}
-
-@media screen and (max-width: 990px) {
-	.container {
-		margin: 0 15px;
-	}
+	padding: 0 15px;
 }
 
 .main h2 {
@@ -159,6 +150,7 @@ a:hover {
 .skills {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 15px;
 }
 
 @media screen and (max-width: 600px) {
@@ -186,13 +178,11 @@ a:hover {
 	border-radius: 25px;
 	padding: 10px 20px;
 	font-size: 25px;
-	font-weight: bold;
 	color: #444;
-	border: 5px solid #444;
+	border: 3px solid #444;
 }
 
 .app-link:hover {
 	text-decoration: none;
 	background-color: #ccc;
-	
 }
