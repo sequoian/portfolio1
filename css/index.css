@@ -22,7 +22,7 @@ body {
 	font-family: 'Amatic SC', sans-serif;
 	color: white;
 	background-color: black;
-	margin-bottom: 100px;
+	margin-bottom: 75px;
 }
 
 /* The background image of the hero.  Can change opacity. */
@@ -64,6 +64,7 @@ body {
 @media screen and (min-width: 980px) {
 	.hero {
 		height: 715px;
+		margin-bottom: 100px;
 	}
 
 	.intro {
@@ -84,23 +85,35 @@ body {
  */
 
 .main {
-	font-size: 20px;
+	font-size: 17px;
 	font-family: 'Nunito', sans-serif;
 	line-height: 120%;
 	color: #444;
 	padding: 0 15px;
 }
 
+@media screen and (min-width: 980px) {
+	.main {
+		font-size: 20px;
+	}
+
+	section {
+		margin: auto;
+		margin-bottom: 100px;
+	}
+}
+
 .main h2 {
 	display: table;
 	margin: auto;
-	font-size: 35px;
+	font-size: 1.75em;
 	font-weight: bold;
 	margin-bottom: 30px;
 }
 
 section {
-	margin-bottom: 100px;
+	margin: auto;
+	margin-bottom: 75px;
 }
 
 a {
@@ -124,8 +137,7 @@ a:hover {
 
 .projects {
 	max-width: 600px;
-	margin: auto;
-	margin-bottom: 150px;
+	margin: inherit auto;
 }
 
 .projects h2 {
@@ -133,12 +145,12 @@ a:hover {
 }
 
 .projects h3 {
-	font-size: 35px;
+	font-size: 1.75em;
 	margin-bottom: 15px;
 }
 
 .projects h4 {
-	font-size: 23px;
+	font-size: 1.25em;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
@@ -177,7 +189,7 @@ a:hover {
 	display: inline-block;
 	border-radius: 25px;
 	padding: 10px 20px;
-	font-size: 25px;
+	font-size: 1.25em;
 	color: #444;
 	border: 3px solid #444;
 }
