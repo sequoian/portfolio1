@@ -105,8 +105,8 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
-	color: #ed00fb;;
+a:hover {
+	text-decoration: underline;
 }
 
 /* Contact */
@@ -115,4 +115,69 @@ a:visited {
 	max-width: 600px;
 	margin: auto;
 	text-align: center;
+}
+
+/* Projects */
+
+.projects {
+	max-width: 600px;
+	margin: auto;
+	margin-bottom: 150px;
+}
+
+.projects h2 {
+	margin-bottom: 50px;
+}
+
+.projects h3 {
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+
+.projects h4 {
+	font-size: 23px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.projects p {
+	margin-bottom: 15px;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+	.skills {
+		flex-direction: column;
+	}
+}
+
+.skills > div {
+	padding: 15px;
+	flex: 1;
+}
+
+.skills ul {
+	list-style: disc outside;
+	margin-left: 30px;
+}
+
+.skills li {
+	padding-left: 10px;
+}
+
+.app-link {
+	display: inline-block;
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+.app-link:hover {
+	text-decoration: none;
+	background-color: #2f2f2f
 }
