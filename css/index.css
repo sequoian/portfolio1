@@ -12,7 +12,7 @@ body {
 
 .hero {
 	width: 100%;
-	height: 100vh;
+	height: 370px;
 	max-height: 1024px;
 	position: relative;
 	display: flex;
@@ -37,7 +37,7 @@ body {
 	background-image: url('../assets/lake.JPG');
 	background-size: cover;
 	background-position: 50% 50%;
-	opacity: .9;
+	opacity: .8;
 }
 
 .intro {
@@ -45,7 +45,7 @@ body {
 }
 
 .intro h1 {
-  font-size: 70px;
+  font-size: 60px;
 	padding-bottom: 15px;
 }
 
@@ -54,16 +54,23 @@ body {
 	max-width: 560px;
 }
 
-@media screen and (min-height: 900px) {
-	.intro {
-		position: relative;
-		bottom: 25%;
+@media screen and (min-width: 750px) {
+	.hero {
+		height: 550px;
 	}
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 980px) {
+	.hero {
+		height: 715px;
+	}
+
+	.intro {
+		padding-left: 10%;
+	}
+
 	.intro h1 {
-		font-size: 100px;
+		font-size: 80px;
 	}
 
 	.intro p {
@@ -180,13 +187,12 @@ a:hover {
 	padding: 10px 20px;
 	font-size: 25px;
 	font-weight: bold;
-	color: #2156a9;
-	border: 5px solid #2156a9;
+	color: #444;
+	border: 5px solid #444;
 }
 
 .app-link:hover {
 	text-decoration: none;
-	color: white;
-	background-color: #2156a9;
+	background-color: #ccc;
 	
 }
