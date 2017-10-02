@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-color: whitesmoke;
+}
+
 /* 
  * Hero
  */
@@ -75,6 +79,7 @@
 	font-size: 20px;
 	font-family: 'Nunito';
 	line-height: 120%;
+	color: #444;
 }
 
 .container {
@@ -171,13 +176,17 @@ a:hover {
 
 .app-link {
 	display: inline-block;
-	color: white;
-	background-color: black;
-	border-radius: 5px;
+	border-radius: 25px;
 	padding: 10px 20px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #2156a9;
+	border: 5px solid #2156a9;
 }
 
 .app-link:hover {
 	text-decoration: none;
-	background-color: #2f2f2f
+	color: white;
+	background-color: #2156a9;
+	
 }
